@@ -1,0 +1,144 @@
+body {
+  background-color: #FFF;
+  text-align: center;
+}
+#popup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.05);
+  display: none;
+  position: absolute;
+}
+#toptenName {
+  color: red;
+  font-weight: bold;
+}
+#topten {
+  width: 400px;
+  margin: 30px auto;
+  background-color: #FFF;
+  padding: 5px 10px;
+  box-shadow: 5px 10px 10px 10px #cdcdff;
+  border-radius: 5px;
+}
+#popup button {
+  margin: 20px 20px 0px 20px;
+}
+#popup button:hover {
+  background-color: #FFF;
+  color: red;
+}
+#tabs {
+  margin: 30px auto 0px 0px;
+  width: 960px;
+}
+.button-unchecked {
+  background-color: blue;
+  width: 100px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 3px;
+  margin: 0px;
+  border-top: 3px blue solid;
+  border-left: 3px blue solid;
+  border-right: 3px blue solid;
+}
+.button-checked {
+  background-color: #fff;
+  width: 100px;
+  color: red;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 3px;
+  margin: 0px;
+  border-top: 3px blue solid;
+  border-left: 3px blue solid;
+  border-right: 3px blue solid;
+}
+#tabs button:hover {
+  background-color: #6698FF;
+  color: #FFF;
+  font-weight: bold;
+}
+#title h1 {
+  color: red;
+  font-weight: bold;
+}
+.main {
+  background-color: #FFF;
+  margin: 0px auto 30px auto;
+  display: block;
+  box-shadow: 5px 10px 10px 10px #cdcdff;
+  border-raius: 10px; 
+  width: 980px;
+  padding: 5px;
+}
+svg {
+  margin: auto;
+  display: block;
+}
+.state-active {
+  stroke: #FFF;
+  stroke-width: 5px;
+}
+.county-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.25px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+.state-borders {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.legend-rect {
+  stroke: #000;
+  stroke-width: 0.1px;
+}
+.tooltip {
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 2px blue;
+  background-color: #FFF;
+  position: absolute;
+  color: blue;
+  padding: 5px 10px;
+  text-align: left;
+  width: 225px;
+  height: 120px;
+}
+.tooltip h3 {
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.tooltip p {
+  font-weight: bold;
+}
+#tableDiv {
+  max-width: 1200px;
+  margin: 75px auto;
+  box-shadow: 5px 10px 10px 10px #cdcdff;
+}
+table {
+  text-align: left;
+  margin: auto;
+}
+tr {
+  background-color: #e5e5ff;
+}
+tr:nth-child(even) {
+  background-color: #FFF;
+}
+tr:hover {
+  background-color: #6565FF;
+  color: #fff;
+}
