@@ -68,7 +68,7 @@ var tooltip = d3.select("body").append("div")
             .attr("class", "tooltip")
             .attr("id", "tooltip")
             .style("opacity", 0)
-	    .on("mouseover" , tooltip.attr("top" , "-500px"););
+	    .on("mouseover" , (d) => {tooltip.attr("top" , "-500px");});
 
 function getData() {
   //
