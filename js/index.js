@@ -239,7 +239,7 @@ function loadSVG() {
             //  .attr("y", (d) => path.centroid(d)[1] + 100 );
           })
           .on("mousemove" , (d) => {
-            tooltip.style("left" , d3.event.pageX + "px" )
+            tooltip.style("left" , d3.event.pageX - 110 + "px" )
                    .style("top" , d3.event.pageY - 145 + "px" );
           })
           .on("mouseout" , (d) => {
@@ -276,7 +276,7 @@ function loadSVG() {
             d3.select("#state-path-" + d.id).attr("class" , "state-active");
         })
        .on("mousemove" , (d) => {
-            tooltip.style("left" , d3.event.pageX + "px" )
+            tooltip.style("left" , d3.event.pageX - 110 + "px" )
                    .style("top" , d3.event.pageY - 145 + "px" );
        })
        .on("mouseout" , (d) => {
