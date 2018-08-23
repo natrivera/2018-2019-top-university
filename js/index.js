@@ -240,7 +240,7 @@ function loadSVG() {
           })
           .on("mousemove" , (d) => {
             tooltip.style("left" , d3.event.pageX + "px" )
-                   .style("top" , d3.event.pageY - 133 + "px" );
+                   .style("top" , d3.event.pageY - 145 + "px" );
           })
           .on("mouseout" , (d) => {
               tooltip.style("opacity" , 0)
@@ -277,7 +277,7 @@ function loadSVG() {
         })
        .on("mousemove" , (d) => {
             tooltip.style("left" , d3.event.pageX + "px" )
-                   .style("top" , d3.event.pageY - 133 + "px" );
+                   .style("top" , d3.event.pageY - 145 + "px" );
        })
        .on("mouseout" , (d) => {
          d3.select("#state-path-" + d.id).attr("class" , "");
